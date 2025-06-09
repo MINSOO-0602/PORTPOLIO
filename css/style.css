@@ -170,12 +170,9 @@ nav>ul>li>a:hover{color: var(--br_orange); transition:color 0.5s ease; }
 .art h1{text-align: center; padding: 0.5rem;background-color: #333333; color: #ffffff;}
 .art_inner{width: 90vw; margin: 0 auto;}
 .arts{display: flex; gap: 10px; counter-reset: item;  }
-/* counter-reset: item; => 카운터를 초기화 & 글자순서를 정한다 */
 .art{flex: 1; position: relative;}
 
-/* .art:before => 특정요소 콘텐츠 내용 앞에 가상요소를 추가해주는 선택자 */
-/* content: counter(item); => item 값이 텍스트로 출력 */
-/* counter-increment: item; => item 카운터요소 1씩 증가 */
+
 .art:hover:before{background-color: #e79739;}
 .photo{position: relative; height: 400px;}
 .photo a img{width: 100%; position: absolute; transition: 0.5s; height: 400px;}
@@ -187,7 +184,7 @@ nav>ul>li>a:hover{color: var(--br_orange); transition:color 0.5s ease; }
 
 
 
-.footer{text-align: center;  position: relative; background-color: #272727; color: #ffffff; padding: 1rem 0;} 
+.footer{text-align: center;  position: relative; background-color: #111111; color: #ffffff; padding: 1rem 0;} 
 .fo_menu{margin-bottom: 10px;}
 .fo_menu a{padding: 10px; }
 .fo_menu img{border-radius: 15px; opacity: 0.9;}
